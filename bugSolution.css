@@ -1,0 +1,9 @@
+The solution is simple: Remove the extra spaces around the operators within the `calc()` function.  Ensure there are no spaces before or after the `+`, `-`, `*`, or `/` operators. 
+
+For instance, the following corrected code should be used: 
+
+```css
+width: calc(100% - 10px);
+```
+
+By removing the extra spaces, the `calc()` function will parse the expression correctly, producing the desired outcome.
